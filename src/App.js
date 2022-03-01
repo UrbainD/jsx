@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import img_Video from './img_Video/2.jpg';
 import './App.css';
 
 
@@ -8,12 +9,12 @@ function App() {
       <div style={{"border":"solid 1px black","max-width":"100vw"}}>
       <h1 className="title red">Your name here</h1>
       <br />
-      <img src="/imageInSrc.jpg" />
+      <img src={"/1.jpg"} />
       <br />
-      <img src="/imageInPublic.jpg" />
+      <img src={img_Video} />
       </div>
       <video width={320} height={240} controls>
-      <source src="myVideo.mp4" type="video/mp4" />
+      <source src="./video.mp4" type="video/mp4" />
       </video>
     </div>
   );
